@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27211C0415A56CD100AE01B5 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 27211C0315A56CD100AE01B5 /* libsqlite3.dylib */; };
+		274059FF15A4607C0002CB0E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 274059FE15A4607C0002CB0E /* UIKit.framework */; };
+		27405A0115A4607C0002CB0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27405A0015A4607C0002CB0E /* Foundation.framework */; };
+		27405A0315A4607C0002CB0E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27405A0215A4607C0002CB0E /* CoreGraphics.framework */; };
+		27405A0915A4607C0002CB0E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27405A0715A4607C0002CB0E /* InfoPlist.strings */; };
+		27405A0B15A4607C0002CB0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27405A0A15A4607C0002CB0E /* main.m */; };
+		27405A0F15A4607C0002CB0E /* CCBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27405A0E15A4607C0002CB0E /* CCBAppDelegate.m */; };
+		27405A1215A4607C0002CB0E /* CCBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27405A1115A4607C0002CB0E /* CCBViewController.m */; };
+		27405A1515A4607C0002CB0E /* CCBViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27405A1315A4607C0002CB0E /* CCBViewController_iPhone.xib */; };
+		27405A1815A4607C0002CB0E /* CCBViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 27405A1615A4607C0002CB0E /* CCBViewController_iPad.xib */; };
+		27834A7B15AAC2AF0081F46E /* baza.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 27834A7A15AAC2AF0081F46E /* baza.sqlite */; };
+		278BD83815A6E66300C67F1E /* libCCBDatabaseConnect.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 278BD83715A6E3B300C67F1E /* libCCBDatabaseConnect.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		278BD83615A6E3B300C67F1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 278BD82F15A6E3B300C67F1E /* CCBDatabaseConnect.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 278BD80715A6DFE200C67F1E;
+			remoteInfo = CCBDatabaseConnect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27211C0315A56CD100AE01B5 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		274059FA15A4607C0002CB0E /* DatabaseConnector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DatabaseConnector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		274059FE15A4607C0002CB0E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		27405A0015A4607C0002CB0E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		27405A0215A4607C0002CB0E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		27405A0615A4607C0002CB0E /* DatabaseConnector-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DatabaseConnector-Info.plist"; sourceTree = "<group>"; };
+		27405A0815A4607C0002CB0E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		27405A0A15A4607C0002CB0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		27405A0C15A4607C0002CB0E /* DatabaseConnector-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DatabaseConnector-Prefix.pch"; sourceTree = "<group>"; };
+		27405A0D15A4607C0002CB0E /* CCBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCBAppDelegate.h; sourceTree = "<group>"; };
+		27405A0E15A4607C0002CB0E /* CCBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCBAppDelegate.m; sourceTree = "<group>"; };
+		27405A1015A4607C0002CB0E /* CCBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CCBViewController.h; sourceTree = "<group>"; };
+		27405A1115A4607C0002CB0E /* CCBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CCBViewController.m; sourceTree = "<group>"; };
+		27405A1415A4607C0002CB0E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CCBViewController_iPhone.xib; sourceTree = "<group>"; };
+		27405A1715A4607C0002CB0E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/CCBViewController_iPad.xib; sourceTree = "<group>"; };
+		27834A7A15AAC2AF0081F46E /* baza.sqlite */ = {isa = PBXFileReference; lastKnownFileType = text; path = baza.sqlite; sourceTree = "<group>"; };
+		278BD82F15A6E3B300C67F1E /* CCBDatabaseConnect.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CCBDatabaseConnect.xcodeproj; path = ../../../CCBDatabaseConnect/CCBDatabaseConnect.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		274059F715A4607C0002CB0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				278BD83815A6E66300C67F1E /* libCCBDatabaseConnect.a in Frameworks */,
+				27211C0415A56CD100AE01B5 /* libsqlite3.dylib in Frameworks */,
+				274059FF15A4607C0002CB0E /* UIKit.framework in Frameworks */,
+				27405A0115A4607C0002CB0E /* Foundation.framework in Frameworks */,
+				27405A0315A4607C0002CB0E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		274059EF15A4607C0002CB0E = {
+			isa = PBXGroup;
+			children = (
+				27834A7C15AAC3A20081F46E /* Resources */,
+				27405A0415A4607C0002CB0E /* DatabaseConnector */,
+				274059FD15A4607C0002CB0E /* Frameworks */,
+				274059FB15A4607C0002CB0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		274059FB15A4607C0002CB0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				274059FA15A4607C0002CB0E /* DatabaseConnector.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		274059FD15A4607C0002CB0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27211C0315A56CD100AE01B5 /* libsqlite3.dylib */,
+				274059FE15A4607C0002CB0E /* UIKit.framework */,
+				27405A0015A4607C0002CB0E /* Foundation.framework */,
+				27405A0215A4607C0002CB0E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27405A0415A4607C0002CB0E /* DatabaseConnector */ = {
+			isa = PBXGroup;
+			children = (
+				278BD82F15A6E3B300C67F1E /* CCBDatabaseConnect.xcodeproj */,
+				27405A0D15A4607C0002CB0E /* CCBAppDelegate.h */,
+				27405A0E15A4607C0002CB0E /* CCBAppDelegate.m */,
+				27405A1015A4607C0002CB0E /* CCBViewController.h */,
+				27405A1115A4607C0002CB0E /* CCBViewController.m */,
+				27405A1315A4607C0002CB0E /* CCBViewController_iPhone.xib */,
+				27405A1615A4607C0002CB0E /* CCBViewController_iPad.xib */,
+				27405A0515A4607C0002CB0E /* Supporting Files */,
+			);
+			path = DatabaseConnector;
+			sourceTree = "<group>";
+		};
+		27405A0515A4607C0002CB0E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27405A0615A4607C0002CB0E /* DatabaseConnector-Info.plist */,
+				27405A0715A4607C0002CB0E /* InfoPlist.strings */,
+				27405A0A15A4607C0002CB0E /* main.m */,
+				27405A0C15A4607C0002CB0E /* DatabaseConnector-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27834A7C15AAC3A20081F46E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				27834A7A15AAC2AF0081F46E /* baza.sqlite */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		278BD83015A6E3B300C67F1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				278BD83715A6E3B300C67F1E /* libCCBDatabaseConnect.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		274059F915A4607C0002CB0E /* DatabaseConnector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27405A1B15A4607C0002CB0E /* Build configuration list for PBXNativeTarget "DatabaseConnector" */;
+			buildPhases = (
+				274059F615A4607C0002CB0E /* Sources */,
+				274059F715A4607C0002CB0E /* Frameworks */,
+				274059F815A4607C0002CB0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DatabaseConnector;
+			productName = DatabaseConnector;
+			productReference = 274059FA15A4607C0002CB0E /* DatabaseConnector.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		274059F115A4607C0002CB0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CCB;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "edzio27developer@gmail.com";
+			};
+			buildConfigurationList = 274059F415A4607C0002CB0E /* Build configuration list for PBXProject "DatabaseConnector" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 274059EF15A4607C0002CB0E;
+			productRefGroup = 274059FB15A4607C0002CB0E /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 278BD83015A6E3B300C67F1E /* Products */;
+					ProjectRef = 278BD82F15A6E3B300C67F1E /* CCBDatabaseConnect.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				274059F915A4607C0002CB0E /* DatabaseConnector */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		278BD83715A6E3B300C67F1E /* libCCBDatabaseConnect.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCCBDatabaseConnect.a;
+			remoteRef = 278BD83615A6E3B300C67F1E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		274059F815A4607C0002CB0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27834A7B15AAC2AF0081F46E /* baza.sqlite in Resources */,
+				27405A0915A4607C0002CB0E /* InfoPlist.strings in Resources */,
+				27405A1515A4607C0002CB0E /* CCBViewController_iPhone.xib in Resources */,
+				27405A1815A4607C0002CB0E /* CCBViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		274059F615A4607C0002CB0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27405A0B15A4607C0002CB0E /* main.m in Sources */,
+				27405A0F15A4607C0002CB0E /* CCBAppDelegate.m in Sources */,
+				27405A1215A4607C0002CB0E /* CCBViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		27405A0715A4607C0002CB0E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27405A0815A4607C0002CB0E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		27405A1315A4607C0002CB0E /* CCBViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27405A1415A4607C0002CB0E /* en */,
+			);
+			name = CCBViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		27405A1615A4607C0002CB0E /* CCBViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27405A1715A4607C0002CB0E /* en */,
+			);
+			name = CCBViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27405A1915A4607C0002CB0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		27405A1A15A4607C0002CB0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27405A1C15A4607C0002CB0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DatabaseConnector/DatabaseConnector-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"”$(OBJROOT)/UninstalledProducts/include”",
+					"”$(TARGET_BUILD_DIR)/usr/local/lib/include”",
+				);
+				INFOPLIST_FILE = "DatabaseConnector/DatabaseConnector-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		27405A1D15A4607C0002CB0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DatabaseConnector/DatabaseConnector-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"”$(OBJROOT)/UninstalledProducts/include”",
+					"”$(TARGET_BUILD_DIR)/usr/local/lib/include”",
+				);
+				INFOPLIST_FILE = "DatabaseConnector/DatabaseConnector-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		274059F415A4607C0002CB0E /* Build configuration list for PBXProject "DatabaseConnector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27405A1915A4607C0002CB0E /* Debug */,
+				27405A1A15A4607C0002CB0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27405A1B15A4607C0002CB0E /* Build configuration list for PBXNativeTarget "DatabaseConnector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27405A1C15A4607C0002CB0E /* Debug */,
+				27405A1D15A4607C0002CB0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 274059F115A4607C0002CB0E /* Project object */;
+}
